@@ -5,6 +5,7 @@ node_modules/
 /test-results/
 /playwright-report/
 /playwright/.last-run/
+/playwright/.auth/
 /blob-report/
 /results/
 /videos/
