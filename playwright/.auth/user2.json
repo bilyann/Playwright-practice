@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "__Secure-YNID",
-      "value": "21.YT=Ee8DCBjfexgFXCK0b5odCCwkcFwPnk4Ja1BDCLVRLKTtjGv75DB2A9xvEQpYDbVVJvv2yBKtQv1nBlSEkkBcQKN8JUiBQOQlo-BehChzSyn36_v7iuzteTeGefVNKslJiIdP88YU-fyA-0GwMtrRSQPSDMa2e7MXkp7M1LgKnubHlamSfIsqKz4jYzFvF9QvC1xRcMNVn6u8UmSzqOAl3HaVJEkNcZELw9vwEeitOmaJNT5vrnTv6Ah82VcI03P_ZMTyajkB1axBhcwS4cfeZpLejYilD1SkZMn-ZPd-N1WXS2XMxlM1jgkbdUSifINwdUes6TPWK8LIdnJd9_cg4w",
+      "value": "21.YT=ZVVng_TETLFZAZZvsAzCZC5cUepCiKJVwab2-06GjWInGByoPZQhnWE10BMNS8tl8-IH8q_UsxJ0CFAszmXwlcMCiADGhtpxnwuGY6RBQmGJOMREbsBa91Kz-rTW6oTA0muSIPo59OtL7nh-Fyv9fHhvHQ0bQXRqYXGJelxgD4L3h5OYmJndHd1SGLvORcrVsi181bBYwKlHT41TNMVN2-frniFDukMYpwPLuZbVOXIVSEz0P93jP1Qih0vESQU5ivof7Nf0_2c8r9RAx0RcMuYCcgTifi0EVtdQfpwr0C7Vip77f85KDS0dwnNMcPEaW1QkKltxsGat212ZeM-Jrw",
       "domain": ".youtube.com",
       "path": "/",
-      "expires": 1803049231.080273,
+      "expires": 1803577403.310711,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None",
@@ -14,7 +14,7 @@
     },
     {
       "name": "YSC",
-      "value": "zpfRFDH7VwI",
+      "value": "FoIx2OgPUEY",
       "domain": ".youtube.com",
       "path": "/",
       "expires": -1,
@@ -24,30 +24,30 @@
     },
     {
       "name": "VISITOR_INFO1_LIVE",
-      "value": "ueVuUMrZuOc",
+      "value": "eN2epoMR_30",
       "domain": ".youtube.com",
       "path": "/",
-      "expires": 1803049232.080461,
+      "expires": 1803577403.3108,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "VISITOR_PRIVACY_METADATA",
-      "value": "CgJVQRIEGgAgEQ%3D%3D",
+      "value": "CgJVQRIEGgAgbQ%3D%3D",
       "domain": ".youtube.com",
       "path": "/",
-      "expires": 1803049232.080502,
+      "expires": 1803577403.310819,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "__Secure-ROLLOUT_TOKEN",
-      "value": "CMiGtfHClpSNIRCeiIiNgreWAxieiIiNgreWAw%3D%3D",
+      "value": "COWypuOC3bLRaRDus6XZscaWAxjus6XZscaWAw%3D%3D",
       "domain": ".youtube.com",
       "path": "/",
-      "expires": 1803049232.080546,
+      "expires": 1803577403.310839,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None",
@@ -56,10 +56,10 @@
     },
     {
       "name": "sid",
-      "value": "s%3AGdceeDQRe_3LUDllVvpi4P7Y9P3DSVkT.UUAurFa93eGqWnd%2B0SIz4jmcZIEM6NE%2FrZIsF2vEY9w",
+      "value": "s%3ADrhwihoUHfWwDKmdNzjpucLKXbspInQA.y%2FHLnOW9jDc5sgVB9QD9KAtv69VtJzmPP4BFooG5Oy8",
       "domain": ".forstudy.space",
       "path": "/",
-      "expires": 1787583633.436226,
+      "expires": 1788111804.770536,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -71,11 +71,11 @@
       "localStorage": [
         {
           "name": "ytidb::LAST_RESULT_ENTRY_KEY",
-          "value": "{\"data\":{\"hasSucceededOnce\":true},\"expiration\":1790089232254,\"creation\":1787497232254}"
+          "value": "{\"data\":{\"hasSucceededOnce\":true},\"expiration\":1790617403564,\"creation\":1788025403564}"
         },
         {
           "name": "yt-icons-last-purged",
-          "value": "1783350032356"
+          "value": "1781286203715"
         }
       ]
     }
