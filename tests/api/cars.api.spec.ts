@@ -1,5 +1,4 @@
 import { test, expect } from '@playwright/test';
-import { faker } from '@faker-js/faker';
 
 test.describe('Cars API Tests - POST /api/cars', () => {
   let sid: string;
@@ -19,7 +18,8 @@ test.describe('Cars API Tests - POST /api/cars', () => {
   });
 
   test('should successfully create a car with valid data', async ({ request }) => {
-    const randomMileage = faker.number.int({ min: 1000, max: 999999 });
+    // Генеруємо випадковий пробіг від 1000 до 999999 за допомогою нативного JS
+    const randomMileage = Math.floor(Math.random() * (999999 - 1000 + 1)) + 1000;
 
     const response = await request.post('/api/cars', {
       data: {
@@ -51,7 +51,7 @@ test.describe('Cars API Tests - POST /api/cars', () => {
       }
     });
 
-    expect(response.status()).toBe(404); // Бекенд повертає 404 для неіснуючого ресурсу
+    expect(response.status()).toBe(404);
     const responseBody = await response.json();
     expect(responseBody.status).toBe('error');
   });
